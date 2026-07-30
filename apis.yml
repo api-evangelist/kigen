@@ -1,8 +1,14 @@
 aid: kigen
 name: Kigen
-description: 'Kigen is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kigen is a security-focused eSIM and iSIM technology company, spun out of Arm in 2020 and
+  headquartered in Cambridge, UK, backed by SoftBank. Kigen builds GSMA-compliant SIM operating systems,
+  integrated SIM (iSIM) and embedded SIM (eSIM) technology, remote SIM provisioning (RSP), and In-Factory
+  Profile Provisioning (IFPP), together with lifecycle and over-the-air (OTA) management for connected
+  and IoT devices. Its eUICC security, SIM OS, and provisioning platform serve mobile network operators,
+  device manufacturers, OEMs and ODMs, IoT service providers, and enterprises building connected products,
+  enabling secure cellular connectivity at scale across the device lifecycle. This profile was surfaced
+  as a portfolio company of SoftBank Vision Fund and enriched by the API Evangelist pipeline from Kigen''s
+  public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/kigen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,65 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://kigen.com/wp-content/uploads/2021/03/kigen-logo.png
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- eSIM
+- iSIM
+- SIM OS
+- Remote SIM Provisioning
+- IoT Connectivity
+- eUICC Security
+- GSMA
+- Cellular Connectivity
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/kigen-vulnerability-disclosure.yml
+- type: Security
+  url: well-known/kigen-security.txt
+- type: Website
+  url: https://kigen.com/
+- type: About
+  url: https://kigen.com/about/
+- type: Products
+  url: https://kigen.com/products/
+- type: Blog
+  url: https://kigen.com/blog/
+- type: Resources
+  url: https://kigen.com/resources/
+- type: Support
+  url: https://kigen.com/contact/
+- type: SecurityTxt
+  url: well-known/kigen-security.txt
+- type: WellKnown
+  url: well-known/kigen-well-known.yml
+- type: LLMsTxt
+  url: llms/kigen-llms.txt
+- type: DomainSecurity
+  url: security/kigen-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
