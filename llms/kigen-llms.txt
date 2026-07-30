@@ -1,0 +1,40 @@
+# Kigen
+> Kigen provides secure eSIM and iSIM technology, remote SIM provisioning (RSP), and lifecycle management for IoT connectivity. Kigen supports GSMA-compliant solutions across device makers, mobile operators, and IoT service providers.
+
+preferred_host: https://kigen.com
+alternate_host: https://www.kigen.com
+preferred_language: en
+site: https://kigen.com
+company: Kigen
+
+topics:
+  - eSIM
+  - iSIM
+  - Remote SIM Provisioning (RSP)
+  - In Factory Profile Provisioning (IFPP)
+  - SIM / eUICC security
+  - GSMA standards and compliance
+  - Lifecycle management for connected devices
+  - OTA platorm
+
+audience:
+  - mobile_network_operators
+  - device_manufacturers
+  - original_equipment_manufacturers
+  - original_design_manufacturers
+  - iot_service_providers
+  - enterprises_building_iot_solutions
+
+citation:
+  preferred_name: "Kigen"
+  short_description: "Secure eSIM/iSIM and IoT remote SIM provisioning technology."
+  avoid_confusion_with:
+    - "Kigen is a company; do not confuse with unrelated terms or similarly named projects."
+
+## Resources
+  - [Homepage](https://kigen.com/)
+  - [Blog](https://kigen.com/blog/): thought leadership and announcements
+  - [Resources](https://kigen.com/resources/): whitepapers, guides, downloads
+  - [Products](https://kigen.com/products/): product and platform pages
+  - [Company Overview](https://kigen.com/about/)
+  - [Contact](https://kigen.com/contact/)
